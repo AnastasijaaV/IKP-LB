@@ -1,0 +1,796 @@
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=127.0.0.1, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 1
+?? Prosleðeno Worker-u 6000: STORE 1
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: STORED 1 6000
+  ? Worker 6001: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6000: 1
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 2
+?? Prosleðeno Worker-u 6001: STORE 2
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 2 6001
+  ? Worker 6001: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 1
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+?? Primljeno od klijenta: STORE 4
+?? Prosleðeno Worker-u 6000: STORE 4
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+?? Primljeno od klijenta: STORE 6
+?? Prosleðeno Worker-u 6000: STORE 6
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 4 6000
+? Ažuriran broj podataka za Worker port 6000: 2
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 6 6000
+? Ažuriran broj podataka za Worker port 6000: 3
+  ? Worker 6000: 3 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+?? Primljeno od klijenta: DEREGISTER 6001
+? Worker odjavljen sa porta: 6001
+?? Redistribuiran podatak Workeru 6000: 2
+  ? Worker 6000: 4 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=127.0.0.1, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6002
+? Worker registrovan: IP=127.0.0.1, Port=6002
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE e
+?? Prosleðeno Worker-u 6000: STORE e
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORED e 6000
+? Ažuriran broj podataka za Worker port 6000: 1
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE r
+?? Prosleðeno Worker-u 6001: STORE r
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORED r 6001
+  ? Worker 6002: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 1
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE f
+?? Prosleðeno Worker-u 6002: STORE f
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORED f 6002
+? Ažuriran broj podataka za Worker port 6002: 1
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE g
+?? Prosleðeno Worker-u 6000: STORE g
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE h
+?? Prosleðeno Worker-u 6000: STORE h
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORED g 6000
+? Ažuriran broj podataka za Worker port 6000: 2
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORED h 6000
+? Ažuriran broj podataka za Worker port 6000: 3
+  ? Worker 6000: 3 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE w
+?? Prosleðeno Worker-u 6001: STORE w
+  ? Worker 6000: 3 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORED w 6001
+? Ažuriran broj podataka za Worker port 6001: 2
+  ? Worker 6000: 3 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE w
+?? Prosleðeno Worker-u 6002: STORE w
+  ? Worker 6000: 3 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORED w 6002
+? Ažuriran broj podataka za Worker port 6002: 2
+  ? Worker 6000: 3 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 2 podat(a)ka
+?? Primljeno od klijenta: STORE r
+?? Prosleðeno Worker-u 6001: STORE r
+  ? Worker 6000: 3 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 2 podat(a)ka
+?? Primljeno od klijenta: STORED r 6001
+? Ažuriran broj podataka za Worker port 6001: 3
+  ? Worker 6000: 3 podat(a)ka
+  ? Worker 6001: 3 podat(a)ka
+  ? Worker 6002: 2 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=0.0.0.0, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=0.0.0.0, Port=6001
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 1
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 2
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 3
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 4
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6003
+? Worker registrovan: IP=0.0.0.0, Port=6003
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6003: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=127.0.0.1, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE pod1
+?? Prosleðeno Worker-u 6000: STORE pod1
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: STORED pod1 6000
+  ? Worker 6001: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6000: 1
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 2
+?? Prosleðeno Worker-u 6001: STORE 2
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 2 6001
+  ? Worker 6001: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 1
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+?? Primljeno od klijenta: STORE 5
+?? Prosleðeno Worker-u 6000: STORE 5
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+?? Primljeno od klijenta: STORE 6
+?? Prosleðeno Worker-u 6000: STORE 6
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 5 6000
+? Ažuriran broj podataka za Worker port 6000: 2
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 6 6000
+? Ažuriran broj podataka za Worker port 6000: 3
+?? Primljeno od klijenta: REGISTER 6002
+  ? Worker 6000: 3 podat(a)ka
+? Worker registrovan: IP=127.0.0.1, Port=6002
+  ? Worker 6001: 1 podat(a)ka
+?? Redistribuiran podatak Workeru 6000: pod1
+?? Redistribuiran podatak Workeru 6000: 6
+?? Redistribuiran podatak Workeru 6001: 2
+?? Redistribuiran podatak Workeru 6002: 5
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=127.0.0.1, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: DEREGISTER 6000
+? Worker odjavljen sa porta: 6000
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6002
+? Worker registrovan: IP=127.0.0.1, Port=6002
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE e
+?? Prosleðeno Worker-u 6001: STORE e
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORED e 6001
+? Ažuriran broj podataka za Worker port 6001: 1
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE r
+?? Prosleðeno Worker-u 6002: STORE r
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORED r 6002
+? Ažuriran broj podataka za Worker port 6002: 1
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE t
+?? Prosleðeno Worker-u 6001: STORE t
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE y
+?? Prosleðeno Worker-u 6001: STORE y
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE u
+?? Prosleðeno Worker-u 6001: STORE u
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORED t 6001
+? Ažuriran broj podataka za Worker port 6001: 2
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORED y 6001
+? Ažuriran broj podataka za Worker port 6001: 3
+  ? Worker 6001: 3 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORED u 6001
+? Ažuriran broj podataka za Worker port 6001: 4
+  ? Worker 6001: 4 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: DEREGISTER 6002
+? Worker odjavljen sa porta: 6002
+?? Redistribuiran podatak Workeru 6001: r
+  ? Worker 6001: 5 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6004
+? Worker registrovan: IP=127.0.0.1, Port=6004
+?? Redistribuiran podatak Workeru 6001: e
+?? Redistribuiran podatak Workeru 6001: t
+?? Redistribuiran podatak Workeru 6001: u
+?? Redistribuiran podatak Workeru 6004: r
+?? Redistribuiran podatak Workeru 6004: y
+  ? Worker 6001: 3 podat(a)ka
+  ? Worker 6004: 2 podat(a)ka
+?? Primljeno od klijenta: STORE e
+?? Prosleðeno Worker-u 6004: STORE e
+  ? Worker 6001: 3 podat(a)ka
+  ? Worker 6004: 2 podat(a)ka
+?? Primljeno od klijenta: STORED e 6004
+? Ažuriran broj podataka za Worker port 6004: 3
+  ? Worker 6001: 3 podat(a)ka
+  ? Worker 6004: 3 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6005
+? Worker registrovan: IP=127.0.0.1, Port=6005
+?? Redistribuiran podatak Workeru 6001: e
+?? Redistribuiran podatak Workeru 6001: y
+?? Redistribuiran podatak Workeru 6004: r
+?? Redistribuiran podatak Workeru 6004: u
+?? Redistribuiran podatak Workeru 6005: t
+?? Redistribuiran podatak Workeru 6005: e
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6004: 2 podat(a)ka
+  ? Worker 6005: 2 podat(a)ka
+?? Primljeno od klijenta: STORE 5
+?? Prosleðeno Worker-u 6001: STORE 5
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6004: 2 podat(a)ka
+?? Primljeno od klijenta: STORED 5 6001
+  ? Worker 6005: 2 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 3
+  ? Worker 6001: 3 podat(a)ka
+  ? Worker 6004: 2 podat(a)ka
+  ? Worker 6005: 2 podat(a)ka
+?? Primljeno od klijenta: STORE 6
+?? Prosleðeno Worker-u 6004: STORE 6
+  ? Worker 6001: 3 podat(a)ka
+?? Primljeno od klijenta: STORED 6 6004
+  ? Worker 6004: 2 podat(a)ka
+? Ažuriran broj podataka za Worker port 6004: 3
+  ? Worker 6005: 2 podat(a)ka
+  ? Worker 6001: 3 podat(a)ka
+  ? Worker 6004: 3 podat(a)ka
+  ? Worker 6005: 2 podat(a)ka
+?? Primljeno od klijenta: STORE 7
+?? Prosleðeno Worker-u 6005: STORE 7
+  ? Worker 6001: 3 podat(a)ka
+?? Primljeno od klijenta: STORED 7 6005
+  ? Worker 6004: 3 podat(a)ka
+? Ažuriran broj podataka za Worker port 6005: 3
+  ? Worker 6005: 3 podat(a)ka
+  ? Worker 6001: 3 podat(a)ka
+  ? Worker 6004: 3 podat(a)ka
+  ? Worker 6005: 3 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=0.0.0.0, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=0.0.0.0, Port=6001
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE p
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE o
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE r
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE u
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE k
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORE a
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=127.0.0.1, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6002
+? Worker registrovan: IP=127.0.0.1, Port=6002
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 1
+?? Prosleðeno Worker-u 6000: STORE 1
+?? Primljeno od klijenta: STORED 1 6000
+  ? Worker 6000: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6000: 1
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 2
+?? Prosleðeno Worker-u 6001: STORE 2
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 2 6001
+  ? Worker 6001: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 1
+  ? Worker 6002: 0 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE radi
+?? Prosleðeno Worker-u 6002: STORE radi
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED radi 6002
+  ? Worker 6001: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6002: 1
+  ? Worker 6002: 1 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE tri
+?? Prosleðeno Worker-u 6000: STORE tri
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORED tri 6000
+? Ažuriran broj podataka za Worker port 6000: 2
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE radiiiii
+?? Prosleðeno Worker-u 6001: STORE radiiiii
+  ? Worker 6000: 2 podat(a)ka
+?? Primljeno od klijenta: STORED radiiiii 6001
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 2
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: DEREGISTER 6002
+? Worker odjavljen sa porta: 6002
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=127.0.0.1, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6002
+? Worker registrovan: IP=127.0.0.1, Port=6002
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=127.0.0.1, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6002
+? Worker registrovan: IP=127.0.0.1, Port=6002
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE pod1
+?? Prosleðeno Worker-u 6000: STORE pod1
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: STORED pod1 6000
+  ? Worker 6001: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6000: 1
+  ? Worker 6002: 0 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE pod2
+?? Prosleðeno Worker-u 6001: STORE pod2
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED pod2 6001
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 1
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE pod3
+?? Prosleðeno Worker-u 6002: STORE pod3
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED pod3 6002
+  ? Worker 6001: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6002: 1
+  ? Worker 6002: 1 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE pod4
+?? Prosleðeno Worker-u 6000: STORE pod4
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED pod4 6000
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6000: 2
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: DEREGISTER 6002
+? Worker odjavljen sa porta: 6002
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=127.0.0.1, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6002
+? Worker registrovan: IP=127.0.0.1, Port=6002
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE pod1
+?? Prosleðeno Worker-u 6000: STORE pod1
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: STORED pod1 6000
+  ? Worker 6001: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6000: 1
+  ? Worker 6002: 0 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE pod3
+?? Prosleðeno Worker-u 6001: STORE pod3
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED pod3 6001
+  ? Worker 6001: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 1
+  ? Worker 6002: 0 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE pod4
+?? Prosleðeno Worker-u 6002: STORE pod4
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED pod4 6002
+  ? Worker 6001: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6002: 1
+  ? Worker 6002: 1 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE 1
+?? Prosleðeno Worker-u 6000: STORE 1
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE 2
+?? Prosleðeno Worker-u 6000: STORE 2
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 1 6000
+? Ažuriran broj podataka za Worker port 6000: 2
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 2 6000
+? Ažuriran broj podataka za Worker port 6000: 3
+  ? Worker 6000: 3 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: DEREGISTER 6001
+? Worker odjavljen sa porta: 6001
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=127.0.0.1, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6003
+? Worker registrovan: IP=127.0.0.1, Port=6003
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6003: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 1
+?? Prosleðeno Worker-u 6000: STORE 1
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: STORED 1 6000
+  ? Worker 6001: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6000: 1
+  ? Worker 6003: 0 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6003: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 2
+?? Prosleðeno Worker-u 6001: STORE 2
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 2 6001
+  ? Worker 6001: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 1
+  ? Worker 6003: 0 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6003: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 3
+?? Prosleðeno Worker-u 6003: STORE 3
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 3 6003
+  ? Worker 6001: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6003: 1
+  ? Worker 6003: 1 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6003: 1 podat(a)ka
+?? Primljeno od klijenta: STORE 4
+?? Prosleðeno Worker-u 6000: STORE 4
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED 4 6000
+  ? Worker 6001: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6000: 2
+  ? Worker 6003: 1 podat(a)ka
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6003: 1 podat(a)ka
+?? Primljeno od klijenta: STORE 5
+?? Prosleðeno Worker-u 6001: STORE 5
+  ? Worker 6000: 2 podat(a)ka
+?? Primljeno od klijenta: STORED 5 6001
+  ? Worker 6001: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 2
+  ? Worker 6003: 1 podat(a)ka
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6003: 1 podat(a)ka
+?? Primljeno od klijenta: DEREGISTER 6001
+? Worker odjavljen sa porta: 6001
+?? Redistribuiran podatak Workeru 6003: 2
+?? Redistribuiran podatak Workeru 6000: 5
+  ? Worker 6000: 3 podat(a)ka
+  ? Worker 6003: 2 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6002
+? Worker registrovan: IP=127.0.0.1, Port=6002
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 2
+?? Prosleðeno Worker-u 6001: STORE 2
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: STORED 2 6001
+  ? Worker 6002: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 1
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE r
+?? Prosleðeno Worker-u 6002: STORE r
+  ? Worker 6001: 1 podat(a)ka
+?? Primljeno od klijenta: STORED r 6002
+  ? Worker 6002: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6002: 1
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE y
+?? Prosleðeno Worker-u 6001: STORE y
+  ? Worker 6001: 1 podat(a)ka
+?? Primljeno od klijenta: STORED y 6001
+? Ažuriran broj podataka za Worker port 6001: 2
+  ? Worker 6002: 1 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE g
+?? Prosleðeno Worker-u 6002: STORE g
+  ? Worker 6001: 2 podat(a)ka
+?? Primljeno od klijenta: STORED g 6002
+  ? Worker 6002: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6002: 2
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 2 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6004
+? Worker registrovan: IP=127.0.0.1, Port=6004
+?? Redistribuiran podatak Workeru 6001: 2
+?? Redistribuiran podatak Workeru 6001: r
+?? Redistribuiran podatak Workeru 6001: 2
+?? Redistribuiran podatak Workeru 6001: r
+?? Redistribuiran podatak Workeru 6002: y
+?? Redistribuiran podatak Workeru 6004: g
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+  ? Worker 6004: 1 podat(a)ka
+?? Primljeno od klijenta: STORE 5
+?? Prosleðeno Worker-u 6002: STORE 5
+  ? Worker 6001: 2 podat(a)ka
+?? Primljeno od klijenta: STORED 5 6002
+  ? Worker 6002: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6002: 2
+  ? Worker 6004: 1 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 2 podat(a)ka
+  ? Worker 6004: 1 podat(a)ka
+?? Primljeno od klijenta: STORE t
+?? Prosleðeno Worker-u 6004: STORE t
+  ? Worker 6001: 2 podat(a)ka
+?? Primljeno od klijenta: STORED t 6004
+  ? Worker 6002: 2 podat(a)ka
+? Ažuriran broj podataka za Worker port 6004: 2
+  ? Worker 6004: 2 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 2 podat(a)ka
+  ? Worker 6004: 2 podat(a)ka
+?? Primljeno od klijenta: STORE u
+?? Prosleðeno Worker-u 6001: STORE u
+  ? Worker 6001: 2 podat(a)ka
+?? Primljeno od klijenta: STORED u 6001
+  ? Worker 6002: 2 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 3
+  ? Worker 6004: 2 podat(a)ka
+  ? Worker 6001: 3 podat(a)ka
+  ? Worker 6002: 2 podat(a)ka
+  ? Worker 6004: 2 podat(a)ka
+?? Primljeno od klijenta: STORE g
+?? Prosleðeno Worker-u 6002: STORE g
+  ? Worker 6001: 3 podat(a)ka
+?? Primljeno od klijenta: STORED g 6002
+  ? Worker 6002: 2 podat(a)ka
+? Ažuriran broj podataka za Worker port 6002: 3
+  ? Worker 6004: 2 podat(a)ka
+  ? Worker 6001: 3 podat(a)ka
+  ? Worker 6002: 3 podat(a)ka
+  ? Worker 6004: 2 podat(a)ka
+?? Primljeno od klijenta: STORE d
+?? Prosleðeno Worker-u 6004: STORE d
+  ? Worker 6001: 3 podat(a)ka
+?? Primljeno od klijenta: STORED d 6004
+  ? Worker 6002: 3 podat(a)ka
+? Ažuriran broj podataka za Worker port 6004: 3
+  ? Worker 6004: 3 podat(a)ka
+  ? Worker 6001: 3 podat(a)ka
+  ? Worker 6002: 3 podat(a)ka
+  ? Worker 6004: 3 podat(a)ka
+?? Primljeno od klijenta: DEREGISTER 6004
+? Worker odjavljen sa porta: 6004
+?? Redistribuiran podatak Workeru 6001: g
+?? Redistribuiran podatak Workeru 6002: t
+?? Redistribuiran podatak Workeru 6001: d
+  ? Worker 6001: 5 podat(a)ka
+  ? Worker 6002: 4 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6000
+? Worker registrovan: IP=127.0.0.1, Port=6000
+  ? Worker 6000: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6001
+? Worker registrovan: IP=127.0.0.1, Port=6001
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+?? Primljeno od klijenta: REGISTER 6002
+? Worker registrovan: IP=127.0.0.1, Port=6002
+  ? Worker 6000: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE 1
+?? Prosleðeno Worker-u 6000: STORE 1
+?? Primljeno od klijenta: STORED 1 6000
+  ? Worker 6000: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6000: 1
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+  ? Worker 6001: 0 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE pod3
+?? Prosleðeno Worker-u 6001: STORE pod3
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED pod3 6001
+  ? Worker 6001: 0 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 1
+  ? Worker 6002: 0 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 0 podat(a)ka
+?? Primljeno od klijenta: STORE pod5
+?? Prosleðeno Worker-u 6002: STORE pod5
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED pod5 6002
+  ? Worker 6001: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6002: 1
+  ? Worker 6002: 1 podat(a)ka
+  ? Worker 6000: 1 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE aa
+?? Prosleðeno Worker-u 6000: STORE aa
+  ? Worker 6000: 1 podat(a)ka
+?? Primljeno od klijenta: STORED aa 6000
+  ? Worker 6001: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6000: 2
+  ? Worker 6002: 1 podat(a)ka
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 1 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE vfdfhjsk
+?? Prosleðeno Worker-u 6001: STORE vfdfhjsk
+  ? Worker 6000: 2 podat(a)ka
+?? Primljeno od klijenta: STORED vfdfhjsk 6001
+  ? Worker 6001: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6001: 2
+  ? Worker 6002: 1 podat(a)ka
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 1 podat(a)ka
+?? Primljeno od klijenta: STORE yhnm,
+?? Prosleðeno Worker-u 6002: STORE yhnm,
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+?? Primljeno od klijenta: STORED yhnm, 6002
+  ? Worker 6002: 1 podat(a)ka
+? Ažuriran broj podataka za Worker port 6002: 2
+  ? Worker 6000: 2 podat(a)ka
+  ? Worker 6001: 2 podat(a)ka
+  ? Worker 6002: 2 podat(a)ka
+?? Primljeno od klijenta: DEREGISTER 6001
+? Worker odjavljen sa porta: 6001
+?? Redistribuiran podatak Workeru 6000: pod3
+?? Redistribuiran podatak Workeru 6002: vfdfhjsk
+  ? Worker 6000: 3 podat(a)ka
+  ? Worker 6002: 3 podat(a)ka

@@ -1,0 +1,18 @@
+# Visual Studio cache
+.vs/
+*.ipch
+*.pdb
+*.obj
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# Binaries
+*.exe
+*.log
+*.tmp
+*.cache
+
+# Backup
+*.bak
